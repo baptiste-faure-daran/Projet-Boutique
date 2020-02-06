@@ -43,6 +43,9 @@ if (($error == false) AND (!empty($_POST))) { ?>
     <header class="hero">
         <img src="<?php echo $imageHero ?>" alt="photo header"/>
         <h1>Lapland Safari</h1>
+            <ul>
+                <li><a href="index.php">Retourner à l'accueil</a></li>
+            </ul>
     </header>
     <div class="cadre article">
         <h2 class="nom"> Vous souhaitez découvrir <?php echo $_POST['Destination']; ?></h2>

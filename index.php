@@ -13,6 +13,9 @@ include("fonctions.php");
 <header class="hero">
     <img src="img/header_laponie.jpg" alt="photo header"/>
     <h1>Lapland Safari</h1>
+        <ul>
+            <li><a href="addArticle.php">Ajoutez Votre Destination</a></li>
+        </ul>
 </header>
 
 <form action="panier.php" method="post">
