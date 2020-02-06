@@ -36,3 +36,8 @@ span {
     margin-left: auto;
     margin-right: auto;
 }
+.nav{
+    position: absolute;
+    text-align: center;
+    color: #1883ba;
+}

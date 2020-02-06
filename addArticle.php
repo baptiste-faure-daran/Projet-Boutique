@@ -43,9 +43,11 @@ if (($error == false) AND (!empty($_POST))) { ?>
     <header class="hero">
         <img src="<?php echo $imageHero ?>" alt="photo header"/>
         <h1>Lapland Safari</h1>
+        <nav>
             <ul>
                 <li><a href="index.php">Retourner à l'accueil</a></li>
             </ul>
+        </nav>
     </header>
     <div class="cadre article">
         <h2 class="nom"> Vous souhaitez découvrir <?php echo $_POST['Destination']; ?></h2>
@@ -58,9 +60,11 @@ if (($error == false) AND (!empty($_POST))) { ?>
     <header class="hero">
         <img src="<?php echo $imageHero ?>" alt="photo header"/>
         <h1>Lapland Safari</h1>
+        <nav>
             <ul>
                 <li><a href="index.php">Retourner à l'accueil</a></li>
             </ul>
+        </nav>
     </header>
     <form action="addArticle.php" method="POST" enctype="multipart/form-data">
         <label>
